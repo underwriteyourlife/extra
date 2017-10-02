@@ -1,66 +1,37 @@
 <!DOCTYPE html>
-		<html>
-			<head>
-            	<!-- <title> Underwrite Your Life </title>
-            	<meta charset="utf-8">
-            	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-            	<meta name="description" content="Underwrite Your Life."> -->
-   
-            	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
-    
-   			 	<!--[if lte IE 8]>
-        			<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
-  			 	<![endif]-->
- 		     	<!--[if gt IE 8]><!-->
-     		   		<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
-   			 	<!--<![endif]-->
-         	 	<!--[if lte IE 8]>
-          	   		<link rel="stylesheet" href="css/layouts/blog-old-ie.css">
-        		<![endif]-->
-        		<!--[if gt IE 8]><!-->
-            		<link rel="stylesheet" type="text/css" href="/css/layouts/blog.css">
-        		<!--<![endif]-->
-			
-				<title>{{ page.title }}</title>
-			
-				<!-- Global Site Tag (gtag.js) - Google Analytics -->
-				<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107210718-1"></script>
-			
-				<script>
-  				window.dataLayer = window.dataLayer || [];
-  				function gtag(){dataLayer.push(arguments)};
-  				gtag('js', new Date());
-  				gtag('config', 'UA-107210718-1');
-				</script>
-			</head>
+<html lang="en">
+	
+	{% include head.html %}
+	
 			<body>
-
-            				<nav class="nav">
-                				<ul class="nav-list">
+				<nav class="nav">
+                			<ul class="nav-list">
                     				<li class="nav-item">
                        					<a class="pure-button" href="http://underwriteyourlife.com/mealprep">Meal Prep</a>
                     				</li>
                     				<li class="nav-item">
                         				<a class="pure-button" href="http://underwriteyourlife.com/personalfinance">Personal Finance</a>
                     				</li>
-                				</ul>
-            				</nav>
+                			</ul>
+            			</nav>
 
-					<div class="container">
+				<div class="container">
 			
-						{{ content }}
+					{{ content }}
 			
-					</div><!-- /.container -->
-				<footer>
+				</div><!-- /.container -->
+			</body>
+	
+			<footer>
 
                 		<div class="pure-menu pure-menu-horizontal">
-                    		<ul>
-                        		<li class="pure-menu-item"><a href="underwriteyourlife.com/personalfinance/welcome" class="pure-menu-link">About</a></li>
-                        		<li class="pure-menu-item"><a href="mailto:underwriteyourlife@gmail.com" class="pure-menu-link">Email Me</a></li>
-                        		<li class="pure-menu-item"><a href="https://github.com/underwriteyourlife" class="pure-menu-link">My GitHub Page</a></li>
-                    		</ul>
+                    			<ul>
+                        			<li class="pure-menu-item"><a href="underwriteyourlife.com/personalfinance/welcome" class="pure-menu-link">About</a></li>
+                        			<li class="pure-menu-item"><a href="mailto:underwriteyourlife@gmail.com" class="pure-menu-link">Email Me</a></li>
+                        			<li class="pure-menu-item"><a href="https://github.com/underwriteyourlife" class="pure-menu-link">My GitHub Page</a></li>
+                    			</ul>
                 		</div>
        
-				</footer>
-			</body>
-		</html>
+			</footer>
+		
+</html>
